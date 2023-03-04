@@ -1,4 +1,4 @@
-INSERT into surveys values( 2, "sem23_uch01", "2023.02.18", "Satina Anna Levchenko Artem", 1080.0000, "", "0", 0, 0, 0 );
+INSERT into surveys values( 2, "sem23_uch03", "2023.02.18", "Satina Anna Levchenko Artem", 1080.0000, "", "0", 0, 0, 0 );
 INSERT into plots values( 2, 1, "1p", 1, 0, "1", "", 756.61, 189.61, 2.02, 0.00, 0.00, "", "", 0, 0, -1.00 );
 INSERT into plots values( 2, 2, "1s", 2, 0, "1", "", 687.63, 105.09, 5.92, 0.00, 0.00, "", "", 0, 0, -1.00 );
 INSERT into shots values( 2, 1, "R02", "", 1.99, 269.69, 12.86, 3.58, 23975.00, 23788.00, -71.07, 2, 0, 0, 0, "", 0, 1676715180, 0, 0.00, "00:13:43:A6:30:EA" );

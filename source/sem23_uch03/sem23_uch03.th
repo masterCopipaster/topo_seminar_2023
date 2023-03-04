@@ -1,11 +1,11 @@
 # 2023.03.04 created by TopoDroid v 5.1.40
 
-survey sem23_uch01 -title "sem23 uch01"
+survey sem23_uch03 -title "sem23 uch03"
 
-  input "../th2/sem23_uch01-1p.th2"
+  input "../th2/sem23_uch03-1p.th2"
 
   # map m1p -projection plan
-  #   sem23_uch01-1p
+  #   sem23_uch03-1p
   # endmap
 
   centerline
