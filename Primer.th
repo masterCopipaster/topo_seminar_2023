@@ -1,0 +1,32 @@
+encoding  utf-8
+survey Primer -title "кам. Пример"
+
+### "СЪЁМКА" С КООРДИНАТАМИ ВХОДА ###
+   centreline
+     cs lat-long
+     fix Primer 55.475298 37.807551 173.2     # координаты Камкино на самом деле
+     station Primer "к. Пример" entrance
+   endcentreline
+
+### ФАЙЛЫ СЪЁМОК ###
+   input source/S20_Primer_50/S20_Primer_50.th
+
+### СТЫКОВКА ПИКЕТОВ РАЗНЫХ СЪЁМОК ###
+   equate Primer 50@S20_Primer_50
+
+### СТЫКОВКА СКРАПОВ (АБРИСОВ) ###
+   join S20_Primer_50-50p@S20_Primer_50 S20_Primer_50-69p@S20_Primer_50 -smooth on /count 3    
+   join S20_Primer_50-69p@S20_Primer_50 S20_Primer_50-109p@S20_Primer_50 -smooth on 
+   join S20_Primer_50-69p@S20_Primer_50 S20_Primer_50-174p@S20_Primer_50 -smooth on /count 5
+   join S20_Primer_50-109p@S20_Primer_50 S20_Primer_50-174p@S20_Primer_50 -smooth on /count 7
+
+### ВКЛЮЧЕНИЕ ЧАСТЕЙ АБРИСА (СКРАПОВ ИЛИ МАПОВ) В ИТОГОВЫЙ МАП (КАРТУ) ###
+   map Primerp -projection plan
+      m50p@S20_Primer_50
+      m69p@S20_Primer_50
+      m109p@S20_Primer_50
+      m174p@S20_Primer_50
+   endmap   
+
+endsurvey
+

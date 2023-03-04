@@ -1,0 +1,4 @@
+encoding  utf-8
+source Primer.th
+
+ export model -output Primer.lox -enable all -wall-source all
