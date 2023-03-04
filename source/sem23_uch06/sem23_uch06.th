@@ -1,6 +1,6 @@
 # 2023.03.04 created by TopoDroid v 5.1.40
 
-survey region6 -title "region6"
+survey sem23_uch06 -title "sem23 uch06"
 
   centerline
     date 2023.02.18 
@@ -422,10 +422,10 @@ survey region6 -title "region6"
     15 6 3.64 149.7 -4.5
   endcenterline
 
-  # input "region6-1p.th2"
+  # input "sem23_uch06-1p.th2"
 
   # map m1p -projection plan
-  #   region6-1p
+  #   sem23_uch06-1p
   # endmap
 
 endsurvey

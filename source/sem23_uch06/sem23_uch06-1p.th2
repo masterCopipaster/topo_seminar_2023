@@ -4,7 +4,7 @@ encoding utf-8
 
 # 2023.03.04 created by TopoDroid v. 5.1.40
 
-scrap region6-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap sem23_uch06-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall:debris
   200.76 -47.67
