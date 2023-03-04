@@ -1,10 +1,12 @@
+encoding  utf-8
 # 2023.03.04 created by TopoDroid v 6.1.96
 
 survey sem23_uch08 -title "sem23 uch08"
 
   centerline
     date 2023.02.18 
-    # team Кроленко, Юшков 
+    team "Кроленко Мария"
+    team "Вячеслав Юшков" 
 
     station 2 ""
 
@@ -626,10 +628,11 @@ survey sem23_uch08 -title "sem23 uch08"
     16 R09 4.59 231.5 -9.4
   endcenterline
 
-  # input "sem23_uch08-uch08p.th2"
+   input "sem23_uch08-uch08p.th2"
 
-  # map much08p -projection plan
-  #   sem23_uch08-uch08p
-  # endmap
+   map much08p -projection plan
+     sem23_uch08-uch08p
+   endmap
 
 endsurvey
+

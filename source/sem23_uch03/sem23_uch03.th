@@ -10,10 +10,8 @@ survey sem23_uch03 -title "sem23 uch03"
 
   centerline
     date 2023.02.18 
-    team "Satina"
-    team "Anna"
-    team "Levchenko"
-    team "Artem"
+    team "Satina Anna"
+    team "Levchenko Artem"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
