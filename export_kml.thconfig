@@ -1,0 +1,5 @@
+encoding  utf-8
+source Primer.th
+
+ export model -output Primer.kml 
+ export map -output Primer1.kml -projection plan
