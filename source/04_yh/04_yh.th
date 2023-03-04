@@ -1,3 +1,4 @@
+encoding  utf-8
 # 2023.02.20 created by TopoDroid v 5.1.40
 
 survey 04_yh -title "04 yh"
@@ -205,7 +206,8 @@ survey 04_yh -title "04 yh"
     18 R01 3.23 180.2 -18.3
   endcenterline
 
-  input "../th2/04_yh-2p.th2"
+  #input "04_yh-2p.th2"
 
 
 endsurvey
+
