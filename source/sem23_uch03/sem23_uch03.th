@@ -1,19 +1,17 @@
 # 2023.03.04 created by TopoDroid v 5.1.40
 
-survey seminar2-r02-r01 -title "seminar2-r02-r01"
+survey sem23_uch03 -title "sem23 uch03"
 
-  input "../th2/seminar2-r02-r01-1p.th2"
+  input "../th2/sem23_uch03-1p.th2"
 
   # map m1p -projection plan
-  #   seminar2-r02-r01-1p
+  #   sem23_uch03-1p
   # endmap
 
   centerline
     date 2023.02.18 
-    team "Satina"
-    team "Anna"
-    team "Levchenko"
-    team "Artem"
+    team "Satina Anna"
+    team "Levchenko Artem"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -1,11 +1,11 @@
 encoding utf-8
 ##XTHERION## xth_me_area_adjust -1581.6 -1322.8 433.1 14.9
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {-1875.28 1 1.0} {-1616.54 0} sem23_uch01-1p.xvi 0 {}
+##XTHERION## xth_me_image_insert {-1875.28 1 1.0} {-1616.54 0} sem23_uch03-1p.xvi 0 {}
 
 # 2023.03.04 created by TopoDroid v. 5.1.40
 
-scrap sem23_uch01-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap sem23_uch03-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
 line wall:debris
   333.11 -268.89
